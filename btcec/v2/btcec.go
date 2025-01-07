@@ -20,7 +20,7 @@ package btcec
 // reverse the transform than to operate in affine coordinates.
 
 import (
-	secp "github.com/walletcore/extkeys/secp256k1/v4"
+	secp "github.com/walletcoresdk/extkeys/secp256k1/v4"
 )
 
 // KoblitzCurve provides an implementation for secp256k1 that fits the ECC

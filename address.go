@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/walletcore/extkeys/base58"
-	"github.com/walletcore/extkeys/bech32"
-	"github.com/walletcore/extkeys/btcec"
-	"github.com/walletcore/extkeys/chaincfg"
+	"github.com/walletcoresdk/extkeys/base58"
+	"github.com/walletcoresdk/extkeys/bech32"
+	"github.com/walletcoresdk/extkeys/btcec"
+	"github.com/walletcoresdk/extkeys/chaincfg"
 	"golang.org/x/crypto/ripemd160"
 )
 

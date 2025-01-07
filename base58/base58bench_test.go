@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/walletcore/extkeys/base58"
+	"github.com/walletcoresdk/extkeys/base58"
 )
 
 var (

@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/walletcore/extkeys/base58"
-	"github.com/walletcore/extkeys/chaincfg"
+	"github.com/walletcoresdk/extkeys/base58"
+	"github.com/walletcoresdk/extkeys/chaincfg"
 	"golang.org/x/crypto/ripemd160"
 )
 

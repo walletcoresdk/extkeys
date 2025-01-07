@@ -8,7 +8,7 @@ package ecdsa
 import (
 	"fmt"
 
-	"github.com/walletcore/extkeys/secp256k1/v4"
+	"github.com/walletcoresdk/extkeys/secp256k1/v4"
 )
 
 // References:

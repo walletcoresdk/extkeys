@@ -7,7 +7,7 @@ package extkeys
 import (
 	"testing"
 
-	"github.com/walletcore/extkeys/btcec"
+	"github.com/walletcoresdk/extkeys/btcec"
 )
 
 func TestEncodeDecodeWIF(t *testing.T) {

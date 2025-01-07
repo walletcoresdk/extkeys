@@ -4,7 +4,7 @@
 package btcec
 
 import (
-	secp "github.com/walletcore/extkeys/secp256k1/v4"
+	secp "github.com/walletcoresdk/extkeys/secp256k1/v4"
 )
 
 // Error identifies an error related to public key cryptography using a

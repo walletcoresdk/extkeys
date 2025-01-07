@@ -6,7 +6,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/walletcore/extkeys/btcec"
+	"github.com/walletcoresdk/extkeys/btcec"
 )
 
 // errors

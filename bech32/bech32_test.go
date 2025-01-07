@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/walletcore/extkeys/bech32"
+	"github.com/walletcoresdk/extkeys/bech32"
 )
 
 func TestBech32(t *testing.T) {

@@ -4,7 +4,7 @@
 package btcec
 
 import (
-	secp "github.com/walletcore/extkeys/secp256k1/v4"
+	secp "github.com/walletcoresdk/extkeys/secp256k1/v4"
 )
 
 // JacobianPoint is an element of the group formed by the secp256k1 curve in

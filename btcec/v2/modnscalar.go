@@ -4,7 +4,7 @@
 package btcec
 
 import (
-	secp "github.com/walletcore/extkeys/secp256k1/v4"
+	secp "github.com/walletcoresdk/extkeys/secp256k1/v4"
 )
 
 // ModNScalar implements optimized 256-bit constant-time fixed-precision

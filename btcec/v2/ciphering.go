@@ -5,7 +5,7 @@
 package btcec
 
 import (
-	secp "github.com/walletcore/extkeys/secp256k1/v4"
+	secp "github.com/walletcoresdk/extkeys/secp256k1/v4"
 )
 
 // GenerateSharedSecret generates a shared secret based on a private key and a

@@ -10,8 +10,8 @@ import (
 	"math/big"
 
 	logging "github.com/ipfs/go-log/v2"
-	"github.com/walletcore/extkeys/base58"
-	"github.com/walletcore/extkeys/btcec"
+	"github.com/walletcoresdk/extkeys/base58"
+	"github.com/walletcoresdk/extkeys/btcec"
 )
 
 var log = logging.Logger("extkeys")

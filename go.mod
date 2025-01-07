@@ -1,4 +1,4 @@
-module github.com/walletcore/extkeys
+module github.com/walletcoresdk/extkeys
 
 go 1.22
 

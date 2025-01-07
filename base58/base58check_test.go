@@ -7,7 +7,7 @@ package base58_test
 import (
 	"testing"
 
-	"github.com/walletcore/extkeys/base58"
+	"github.com/walletcoresdk/extkeys/base58"
 )
 
 var checkEncodingStringTests = []struct {

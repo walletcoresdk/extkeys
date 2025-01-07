@@ -8,7 +8,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/walletcore/extkeys/bech32"
+	"github.com/walletcoresdk/extkeys/bech32"
 )
 
 // This example demonstrates how to decode a bech32 encoded string.

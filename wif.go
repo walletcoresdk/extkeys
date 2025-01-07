@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/walletcore/extkeys/base58"
-	"github.com/walletcore/extkeys/btcec"
+	"github.com/walletcoresdk/extkeys/base58"
+	"github.com/walletcoresdk/extkeys/btcec"
 )
 
 var (
