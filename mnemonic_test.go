@@ -164,7 +164,7 @@ func TestMnemonicIndex(t *testing.T) {
 	t.Logf("words : %v", words2)
 
 	// 给定 Entropy
-	entropyHex := "01696082f6c0c606d44f12b8d5dad54f"
+	entropyHex := "d30eb8d92e5bb69f2af4ed9cfb67e6bd"
 	entropy, err := hex.DecodeString(entropyHex)
 	if err != nil {
 		fmt.Println("Invalid entropy:", err)
@@ -189,5 +189,28 @@ func TestMnemonicIndex(t *testing.T) {
 
 	fmt.Printf("Generated entropyV2: %x\n", entropyV2)
 	fmt.Println("Generated entropyV2:", entropyV2)
+
+}
+
+func TestMnemonicEntropy(t *testing.T) {
+
+	mnemonic := NewMnemonic()
+
+	// 给定 Entropy
+	entropyHex := "d30eb8d92e5bb69f2af4ed9cfb67e6bd"
+	entropy, err := hex.DecodeString(entropyHex)
+	if err != nil {
+		fmt.Println("Invalid entropy:", err)
+		return
+	}
+
+	// 生成助记词
+	mnemonicV2, err := mnemonic.MnemonicEntropy(entropy)
+	if err != nil {
+		fmt.Println("Error generating mnemonic:", err)
+		return
+	}
+
+	fmt.Println("Generated mnemonicV2:", mnemonicV2)
 
 }
