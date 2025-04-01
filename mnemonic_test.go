@@ -187,7 +187,10 @@ func TestMnemonicIndex(t *testing.T) {
 		return
 	}
 
+	entropy111 := hex.EncodeToString(entropyV2)
+
 	fmt.Printf("Generated entropyV2: %x\n", entropyV2)
+	fmt.Println("Generated entropy111:", entropy111)
 	fmt.Println("Generated entropyV2:", entropyV2)
 
 }
